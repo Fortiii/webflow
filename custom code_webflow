@@ -445,4 +445,3 @@ var define;
 var e,n=arguments[3],o=require("./Showcase"),t=require("./Slides"),i=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},n=e.data,i=void 0===n?[]:n,a=e.containerId,c=void 0===a?"app":a,d=e.waveOptions,s=document.getElementById(c),u=new t.Slides(i),r=new o.Showcase(i,{onActiveIndexChange:function(e){u.onActiveIndexChange(e)},onIndexChange:function(e){u.onMove(e)},onZoomOutStart:function(e){e.activeIndex;u.appear()},onZoomOutFinish:function(e){e.activeIndex},onFullscreenStart:function(e){var n=e.activeIndex;u.disperse(n)},onFullscreenFinish:function(e){e.activeIndex},wave:d});r.mount(s),u.mount(s),r.render(),window.addEventListener("resize",function(){r.onResize()}),window.addEventListener("mousemove",function(e){r.onMouseMove(e)})};n.StickyShowcase={StickShowcase:i},module.exports=i,n.StickyShowcase=i,console.log(e);
 },{"./Showcase":"UaVh","./Slides":"/YDW"}]},{},["Focm"], "StickyShowcase")
 //# sourceMappingURL=/index.js.map
-
